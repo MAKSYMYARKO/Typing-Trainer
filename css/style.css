@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #5B6467;
+}
+
+.parent {
+  display: flex;
+}
+
+aside {
+  width: 210px;
+  height: 100vh;
+}
+
+nav {
+  width: 210px;
+  height: 100vh;
+  padding: 25px 0 0 0;
+}
+nav h1 {
+  font-family: "ABeeZee", sans-serif;
+  color: #D8F8FF;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+nav button, nav a {
+  display: inline-block;
+  width: 172px;
+  height: 48px;
+  background-color: rgba(198, 231, 237, 0);
+  border: none;
+  text-align: center;
+  color: #C3DFE6;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 25px 0 0 10px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 48px;
+  transition: background-color 300ms ease-out, color 300ms ease-out;
+}
+nav a.active {
+  background-color: #c6e7ed;
+  color: #156A89;
+}
+nav a:hover {
+  background-color: #c6e7ed;
+  color: #156A89;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #82888B;
+  width: 100%;
+  height: 302px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header h2 {
+  font-family: "Inria Sans", sans-serif;
+  color: #FFF;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+header label {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #FFF;
+}
+header select {
+  margin: 25px 0 0 0;
+  border-radius: 20px;
+  width: 219px;
+  height: 47px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  border: none;
+}
+header option:hover {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
